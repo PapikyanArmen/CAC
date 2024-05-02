@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="utf-8">
+    <title>Report settings</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link type="text/css" href="/static/assets/css/cac.min.css" rel="stylesheet">
+<body class="bank">
+<header class="header">
+    <div class="container">
+        <div class="R aic">
+            <div class="C3"><a class="logo" href="#"><img src="/static/assets/img/logo-bank.svg" alt=""></a></div>
+            <div class="C">
+                <ul class="header-menu">
+                    <li class="header-menu-item"><a class="header-menu-link active" href="#">Applications</a></li>
+                    <li class="header-menu-item"><a class="header-menu-link" href="#">App Forms</a></li>
+                    <li class="header-menu-item"><a class="header-menu-link" href="#">Dashboard</a></li>
+                </ul>
+            </div>
+            <div class="C0">
+                <div class="R aic gx24">
+                    <div class="C0"><a class="button button-sm bgcb outline brp h32 px16" href="#">
+                        <svg class="icon wh16 mr12 ml-4">
+                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-plus"></use>
+                        </svg>
+                        <div>New form</div></a></div>
+                    <div class="C0">
+                        <div class="header-notification">
+                            <div class="dropdown"><a class="button ci pr" href="#" role="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="bgcr wh12 brp pa t-5 r-3 b bw2 bcw"></div>
+                                <svg class="icon wh20">
+                                    <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-notif2"></use>
+                                </svg></a>
+                                <div class="dropdown-menu dropdown-menu-right p0 miw312 oh" id="notification">
+                                    <div class="px20 py16">
+                                        <div class="fs16 fw6 cdi">Notifications</div>
+                                    </div>
+                                    <div><a class="df fdc px20 py12 tdn-h bgcs2-h bt bbcs4" href="#">
+                                        <div class="df gx8">
+                                            <div>
+                                                <div class="mark active"></div>
+                                            </div>
+                                            <div>
+                                                <div class="df aic jcsb">
+                                                    <div class="cb fw6">John Johnson</div>
+                                                    <div class="fs12 cli mr-8">21.01.20</div>
+                                                </div>
+                                                <div class="mt2 fs13 ci">Hi, How are you? What about our next meeting</div>
+                                            </div>
+                                        </div></a><a class="df fdc px20 py12 tdn-h bgcs2-h bt bbcs4" href="#">
+                                        <div class="df gx8">
+                                            <div>
+                                                <div class="mark"></div>
+                                            </div>
+                                            <div>
+                                                <div class="df aic jcsb">
+                                                    <div class="cb fw6">John Johnson</div>
+                                                    <div class="fs12 cli mr-8">21.01.20</div>
+                                                </div>
+                                                <div class="mt2 fs13 ci">Hi, How are you? What about our next meeting</div>
+                                            </div>
+                                        </div></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="C0">
+                        <div class="dropdown"><a class="button ci tsr270d" href="#" role="button" id="accountSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="wh32 brp df aic jcc mr10 oh">
+                                <div class="wh32 df aic jcc fw7 fs18 cw lh1 bgcr">E</div>
+                                <!-- При подгрузки реальной аватарки верхний блок скрывается и вместо него показывается картинка, у верхнего блока с буквой цвет может подставляться рандомно ".bgcb, bgcy, bgcg, bgcr и.т.д"-->
+                                <!--img(src="/static/assets/img/temp/t-avatar.jpg", alt="")
+                                -->
+                            </div>
+                            <div class="fs16 lh1 fw4 cdi">Eugene Melnichenko</div>
+                            <svg class="icon wh12 cli tsr270 ml8">
+                                <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-angle"></use>
+                            </svg></a>
+                            <div class="dropdown-menu dropdown-menu-right p0 miw312" id="accountSettings">
+                                <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link active" href="#">
+                                        <svg class="icon">
+                                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-user2"></use>
+                                        </svg>
+                                        <div>Profile settings</div></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">
+                                        <svg class="icon">
+                                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-list"></use>
+                                        </svg>
+                                        <div>Billing</div></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">
+                                        <svg class="icon">
+                                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-users"></use>
+                                        </svg>
+                                        <div>Teams</div></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">
+                                        <svg class="icon">
+                                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-image"></use>
+                                        </svg>
+                                        <div>Form settings</div></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">
+                                        <svg class="icon">
+                                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-settings"></use>
+                                        </svg>
+                                        <div>Automation Manager</div></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">
+                                        <svg class="icon">
+                                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-comment"></use>
+                                        </svg>
+                                        <div>Help</div></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">
+                                        <svg class="icon">
+                                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-logout"></use>
+                                        </svg>
+                                        <div>Sign out</div></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="fg1">
+    <div class="content">
+        <div class="container">
+            <div class="mb24">
+                <div class="R aic">
+                    <div class="C">
+                        <div class="fs28 cdi fw7 lh11">Dashboard</div>
+                    </div>
+                </div>
+            </div>
+            <div class="bgcs16 h1 my20"></div>
+            <div class="filters R">
+                <div class="filter C3-M aic dif pr7">
+                    <label class="form-label-sm mr10">Date</label>
+                    <input class="form-control form-control-sm" id="daterangepicker" type="text" name="dates">
+                </div>
+                <div class="filter C3-M aic dif pl7 pr7">
+                    <label class="form-label-sm mr10">State</label>
+                    <select class="custom-select custom-select-sm" id="state" name="state">
+                        <option value="All">All</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="filter C3-M aic dif pl7">
+                    <label class="form-label-sm mr10">Vendor</label>
+                    <select class="custom-select custom-select-sm" id="vendor" name="vendor">
+                        <option value="All">All</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="filter">
+                    <button class="button button-sm bgc3" type="button">Apply</button>
+                </div>
+                <div class="filter mla pr10">
+                    <button class="button button-icon" type="button" title="Print">
+                        <svg class="icon">
+                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-print"></use>
+                        </svg>
+                    </button>
+                    <button class="button button-icon mr5" type="button" title="Pdfg">
+                        <svg class="icon">
+                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-pdf"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="bgcs16 h1 my20"></div>
+            <div class="R my15">
+                <div class="card-grid-buttons mla mr15">
+                    <div class="card-grid-button card-grid-button-1">
+                        <svg class="icon">
+                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-grid-view"></use>
+                        </svg>
+                    </div>
+                    <div class="card-grid-button card-grid-button-2 card-grid-button-active">
+                        <svg class="icon">
+                            <use xlink:href="/static/assets/img/icons/sprite/svg/sprite.svg#m-grid-view-chart"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="R">
+                <div class="C6-M my15 card-grid">
+                    <div class="card br5">
+                        <div class="p25 pr">
+                            <div class="df aic mb20 card-grid-container"><img class="w40 h40 chart-icon" src="/static/assets/img/content/icons/approval-ratio-icon.svg">
+                                <div class="ml10 chart-title"><span class="fs14">Approval Ratio</span>
+                                    <p class="m0 lh1"><span class="fs20 fw7 chart-percent">65<span class="fs14">%</span></span><span class="fs12 dib ml10 chart-vector" style="color:#7EC147">+11.02%<img class="w16" src="/static/assets/img/content/icons/vector-up.svg"></span></p>
+                                </div>
+                            </div>
+                            <canvas id="approvalRatio" data-datasets="[12,19,3,5,2,3,9]"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="C6-M my15 card-grid">
+                    <div class="card br5">
+                        <div class="p25 pr">
+                            <div class="df aic mb20 card-grid-container"><img class="w40 h40 chart-icon" src="/static/assets/img/content/icons/funded-ratio-icon.svg">
+                                <div class="ml10 chart-title"><span class="fs14">Approval Ratio</span>
+                                    <p class="m0 lh1"><span class="fs20 fw7 chart-percent">43<span class="fs14">%</span></span><span class="fs12 dib ml10 chart-vector" style="color:#7EC147">+15.34%<img class="w16" src="/static/assets/img/content/icons/vector-up.svg"></span></p>
+                                </div>
+                            </div>
+                            <canvas id="fundedRatio" data-datasets="[14,30,3,6,2,12,9]"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="C6-M my15 card-grid">
+                    <div class="card br5">
+                        <div class="p25 pr">
+                            <div class="df aic mb20 card-grid-container"><img class="w40 h40 chart-icon" src="/static/assets/img/content/icons/funding-to-approval-ratio-icon.svg">
+                                <div class="ml10 chart-title"><span class="fs14">Approval Ratio</span>
+                                    <p class="m0 lh1"><span class="fs20 fw7 chart-percent">23<span class="fs14">%</span></span><span class="fs12 dib ml10 chart-vector" style="color:#7EC147">+1.02%<img class="w16" src="/static/assets/img/content/icons/vector-up.svg"></span></p>
+                                </div>
+                            </div>
+                            <canvas id="fundingToApprovalRatio" data-datasets="[14,30,15,6,34,12,6]"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="C6-M my15 card-grid">
+                    <div class="card br5">
+                        <div class="p25 pr">
+                            <div class="df aic mb20 card-grid-container"><img class="w40 h40 chart-icon" src="/static/assets/img/content/icons/rejection-ratio-icon.svg">
+                                <div class="ml10 chart-title"><span class="fs14">Approval Ratio</span>
+                                    <p class="m0 lh1"><span class="fs20 fw7 chart-percent">52<span class="fs14">%</span></span><span class="fs12 dib ml10 chart-vector" style="color:#7EC147">+31.35%<img class="w16" src="/static/assets/img/content/icons/vector-up.svg"></span></p>
+                                </div>
+                            </div>
+                            <canvas id="rejectionRatio" data-datasets="[14,22,3,67,2,13,9]"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="C6-M my15 card-grid">
+                    <div class="card br5">
+                        <div class="p25 pr">
+                            <div class="df aic mb20 card-grid-container"><img class="w40 h40 chart-icon" src="/static/assets/img/content/icons/average-rate-icon.svg">
+                                <div class="ml10 chart-title"><span class="fs14">Approval Ratio</span>
+                                    <p class="m0 lh1"><span class="fs20 fw7 chart-percent">21<span class="fs14">%</span></span><span class="fs12 dib ml10 chart-vector" style="color:#7EC147">+1.04%<img class="w16" src="/static/assets/img/content/icons/vector-up.svg"></span></p>
+                                </div>
+                            </div>
+                            <canvas id="averageRate" data-datasets="[34,30,5,6,7,8,9]"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="C6-M my15 card-grid">
+                    <div class="card br5">
+                        <div class="p25 pr">
+                            <div class="df aic mb20 card-grid-container"><img class="w40 h40 chart-icon" src="/static/assets/img/content/icons/average-terms-icon.svg">
+                                <div class="ml10 chart-title"><span class="fs14">Approval Ratio</span>
+                                    <p class="m0 lh1"><span class="fs20 fw7 chart-percent">34<span class="fs14">%</span></span><span class="fs12 dib ml10 chart-vector" style="color:#7EC147">+15.34%<img class="w16" src="/static/assets/img/content/icons/vector-up.svg"></span></p>
+                                </div>
+                            </div>
+                            <canvas id="averageTerms" data-datasets="[5,32,3,67,2,21,9]"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="C6-M my15 card-grid">
+                    <div class="card br5">
+                        <div class="p25 pr">
+                            <div class="df aic mb20 card-grid-container"><img class="w40 h40 chart-icon" src="/static/assets/img/content/icons/volume-icon.svg">
+                                <div class="ml10 chart-title"><span class="fs14">Approval Ratio</span>
+                                    <p class="m0 lh1"><span class="fs20 fw7 chart-percent">45,343<span class="fs14">%</span></span><span class="fs12 dib ml10 chart-vector" style="color:#7EC147">+1.02%<img class="w16" src="/static/assets/img/content/icons/vector-up.svg"></span></p>
+                                </div>
+                            </div>
+                            <canvas id="volume" data-datasets="[66,33,11,6,2,5,9]"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb24 mt60">
+                <div class="R aic">
+                    <div class="C">
+                        <div class="fs22 cdi fw7 lh11">Finance & Application Overview</div>
+                    </div>
+                </div>
+            </div>
+            <div class="R">
+                <div class="C4-M my15">
+                    <div class="card br5 h100p">
+                        <div class="p15">
+                            <div class="df">
+                                <div class="w32 h32 br4 aic jcc dif" style="background-color:#D9DBFF"><img class="w16 h16" src="/static/assets/img/content/icons/f-metric.svg"></div><span class="fs20 fw7 ml10">Financial Metrics</span>
+                            </div>
+                            <ul class="card-list">
+                                <li class="card-list-item"><span>Average Funded Amount</span><span>$23,839.56</span></li>
+                                <li class="card-list-item"><span>Average Discount (%)</span><span>13.46%</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="C4-M my15">
+                    <div class="card br5 h100p">
+                        <div class="p15">
+                            <div class="df">
+                                <div class="w32 h32 br4 aic jcc dif" style="background-color:#E7FFD9"><img class="w16 h16" src="/static/assets/img/content/icons/people-2.svg"></div><span class="fs20 fw7 ml10">Applicants</span>
+                            </div>
+                            <ul class="card-list">
+                                <li class="card-list-item"><span>Credit Score</span><span>380</span></li>
+                                <li class="card-list-item"><span>Age</span><span>38yr.</span></li>
+                                <li class="card-list-item"><span>Income (monthly)</span><span>$3,985.45</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="C4-M my15">
+                    <div class="card br5 h100p">
+                        <div class="p15">
+                            <div class="df">
+                                <div class="w32 h32 br4 aic jcc dif" style="background-color:#E5F6F7"><img class="w16 h16" src="/static/assets/img/content/icons/vehicle.svg"></div><span class="fs20 fw7 ml10">Vehicle</span>
+                            </div>
+                            <ul class="card-list">
+                                <li class="card-list-item"><span>Average Mileage</span><span>20,678.678 mi</span></li>
+                                <li class="card-list-item"><span>Average Vehicle Years</span><span>8 yr.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="R aic jcsb">
+            <div class="C0">
+                <div>Copyright © CreditAppCenter ®</div>
+            </div>
+            <div class="C0">
+                <div class="R">
+                    <div class="C0"><a href="/root/terms-of-use.html">Terms Of Use</a></div>
+                    <div class="C0"><a href="/root/privacy-policy.html">Privacy Policy</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="/static/assets/js/cac.min.js"></script>
+</body>
+</head>
+</html>
